@@ -1,6 +1,7 @@
 # SoccerRecords
 
     The main objective of the Soccer Records System is to provide information about soccer teams, their players and a particular match between two teams. Users are able to get more information about:
+    
      - Particular date and time of the match.
      - The place of the match.
      - The result of the match.
