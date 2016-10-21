@@ -11,47 +11,11 @@ import java.util.Set;
  */
  
 public interface IGoalDao 
-{
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	 
-	public void create(Goal parameter) ;
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	 
+{	 
+	public void create(Goal parameter);	 
 	public void delete(Goal parameter) ;
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	 
-	public Set<Goal> findAll() ;
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	 
-	public Goal findById(long parameter) ;
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	 
+	public Set<Goal> findAll() ;	 
+	public Goal findById(long parameter) ;	 
 	public void update(Goal parameter) ;
-
 }
 
