@@ -1,3 +1,5 @@
+package cz.muni.fi.pa165.soccerrecords;
+
 
 /**
  *
@@ -9,6 +11,8 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        //ApplicationContext context = new AnnotationConfigApplicationContext(Context.class);
     }
     
 }
