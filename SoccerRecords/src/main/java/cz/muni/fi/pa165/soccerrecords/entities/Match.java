@@ -3,6 +3,7 @@ import java.util.Set;
 import cz.muni.fi.pa165.soccerrecords.enums.MatchResult;
 import java.util.HashSet;
 import java.util.Date;
+import javax.persistence.GenerationType;
 
 
 
@@ -22,7 +23,8 @@ public class Match
 	 * @ordered
 	 */
 	 
-	@javax.persistence.Id 
+	@javax.persistence.Id
+        @javax.persistence.GeneratedValue(strategy = GenerationType.AUTO)
 	@javax.persistence.Column(nullable = false) 
 	protected Long id;
 

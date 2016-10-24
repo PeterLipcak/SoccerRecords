@@ -1,5 +1,6 @@
 package cz.muni.fi.pa165.soccerrecords.entities;
 import java.util.Date;
+import javax.persistence.GenerationType;
 
 
 
@@ -19,7 +20,8 @@ public class Goal
 	 * @ordered
 	 */
 	 
-	@javax.persistence.Id 
+	@javax.persistence.Id
+        @javax.persistence.GeneratedValue(strategy = GenerationType.AUTO)
 	@javax.persistence.Column(nullable = false) 
 	protected Long id;
 

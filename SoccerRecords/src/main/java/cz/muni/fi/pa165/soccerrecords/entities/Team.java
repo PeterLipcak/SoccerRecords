@@ -1,6 +1,7 @@
 package cz.muni.fi.pa165.soccerrecords.entities;
 import java.util.Set;
 import java.util.HashSet;
+import javax.persistence.GenerationType;
 
 
 
@@ -21,6 +22,7 @@ public class Team
 	 */
 	 
 	@javax.persistence.Id 
+        @javax.persistence.GeneratedValue(strategy = GenerationType.AUTO)
 	@javax.persistence.Column(nullable = false) 
 	protected Long id;
 
